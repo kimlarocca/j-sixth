@@ -165,7 +165,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       environment: 'prod',
-      gtagId: 'G-XXX',
+      gtagId: 'G-9GV23HXJM3',
       supabaseKey: 'sb_publishable_otwK3d25ys4EnLvnMmQCoQ_kvEEXS5u',
       supabaseUrl: 'https://fghyfvvnbgipfkrxjwia.supabase.co',
     }
