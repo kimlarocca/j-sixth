@@ -134,13 +134,14 @@ export default defineNuxtConfig({
       mode: "out-in",
     },
     head: {
-      title: 'Nuxt 4 Boilerplate', // default fallback title
+      title: 'JSixth.com | Congress Must Display the January 6 Plaque', // default fallback title
       htmlAttrs: {
         lang: 'en',
       },
       meta: [
         { name: 'msapplication-TileColor', content: '#0a84ff' },
-        { name: 'theme-color', content: '#0a84ff' }
+        { name: 'theme-color', content: '#0a84ff' },
+        { name: 'description', content: 'Congress is required by law to display the official plaque honoring officers who defended the Capitol on January 6, 2021. It is missing. We display it here until they follow the law. The administration that incited the attack now rewrites its history—but erasure only amplifies the truth.' }
       ],
       link: [
         {

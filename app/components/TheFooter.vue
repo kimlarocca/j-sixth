@@ -3,13 +3,11 @@ const currentYear = new Date().getFullYear()
 </script>
 
 <template>
-  <div class="container p-4">
-    <Divider class="my-12" />
-    <footer>
-      <NuxtLink to="/" class="plain clickable" aria-label="home">
-        <Logo />
-      </NuxtLink>
-      <p class="small mt-4">Copyright © {{ currentYear }}. All Rights Reserved.</p>
+  <div class="bg-black p-6">
+    <footer class="container text-center">
+      <p class="text-white font-semibold text-sm">
+        Copyright © {{ currentYear }} JSixth.com. All Rights Reserved.
+      </p>
     </footer>
   </div>
 </template>
