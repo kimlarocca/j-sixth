@@ -14,16 +14,20 @@
           </p>
         </div>
       </div>
-      <img
-        src="/images/plaque.jpg"
-        alt="January 6th Plaque"
-        class="order-2 col-span-2 hidden xl:block w-full"
-      />
-      <img
-        src="/images/plaque-mobile.jpg"
-        alt="January 6th Plaque"
-        class="order-1 xl:hidden w-full"
-      />
+      <a
+        href="/images/plaque-original.jpg"
+        target="_blank"
+        class="plain order-2 col-span-2 hidden xl:block"
+      >
+        <img src="/images/plaque.jpg" alt="January 6th Plaque" class="w-full" />
+      </a>
+      <a
+        href="/images/plaque-original.jpg"
+        target="_blank"
+        class="plain order-1 xl:hidden"
+      >
+        <img src="/images/plaque-mobile.jpg" alt="January 6th Plaque" class="w-full" />
+      </a>
     </section>
 
     <section class="container px-8 py-16 xl:p-24">
